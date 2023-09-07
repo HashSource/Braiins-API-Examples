@@ -1,0 +1,207 @@
+{
+  "data": {
+    "bos": {
+      "autoUpgrade": null,
+      "faultLight": false,
+      "hostname": "P1m7s3bg0329",
+      "hwid": "tdcLWEXNbt1lrCLV",
+      "info": {
+        "mode": "NAND",
+        "version": {
+          "full": "2023-08-08-0-47100d59-23.08-plus",
+          "isPlus": true
+        }
+      },
+      "macAddress": "f0:45:da:4e:fb:b9",
+      "manager": null,
+      "uptime": {
+        "durationS": 178789,
+        "since": 1693941916
+      }
+    },
+    "bosminer": {
+      "info": {
+        "fans": [
+          {
+            "name": "0",
+            "rpm": 0,
+            "speed": 100
+          },
+          {
+            "name": "1",
+            "rpm": 0,
+            "speed": 100
+          },
+          {
+            "name": "2",
+            "rpm": 0,
+            "speed": 100
+          },
+          {
+            "name": "3",
+            "rpm": 0,
+            "speed": 100
+          }
+        ],
+        "modelName": "Antminer S19J Pro",
+        "poolGroups": [
+          {
+            "name": "Default",
+            "pools": [
+              {
+                "active": true,
+                "bestShare": 524288,
+                "generatedWork": 4371709952,
+                "lastDifficulty": 524288,
+                "shares": {
+                  "acceptedDifficulty": 408821760,
+                  "acceptedSolutions": 978,
+                  "rejectedDifficulty": 589824,
+                  "rejectedRatio": 0.0014406627048442284,
+                  "rejectedSolutions": 2,
+                  "staleDifficulty": 0,
+                  "staleRatio": 0,
+                  "staleSolutions": 0
+                },
+                "status": "ALIVE",
+                "url": "stratum+tcp://btc.global.luxor.tech:700",
+                "user": "zetta.8x1"
+              },
+              {
+                "active": false,
+                "bestShare": 0,
+                "generatedWork": 4063232,
+                "lastDifficulty": 16384,
+                "shares": {
+                  "acceptedDifficulty": 0,
+                  "acceptedSolutions": 0,
+                  "rejectedDifficulty": 0,
+                  "rejectedRatio": 0,
+                  "rejectedSolutions": 0,
+                  "staleDifficulty": 0,
+                  "staleRatio": 0,
+                  "staleSolutions": 0
+                },
+                "status": "ALIVE",
+                "url": "stratum+tcp://btc.global.luxor.tech:700",
+                "user": "zetta.8x1"
+              },
+              {
+                "active": false,
+                "bestShare": 0,
+                "generatedWork": 0,
+                "lastDifficulty": 131072,
+                "shares": {
+                  "acceptedDifficulty": 0,
+                  "acceptedSolutions": 0,
+                  "rejectedDifficulty": 0,
+                  "rejectedRatio": 0,
+                  "rejectedSolutions": 0,
+                  "staleDifficulty": 0,
+                  "staleRatio": 0,
+                  "staleSolutions": 0
+                },
+                "status": "ALIVE",
+                "url": "stratum+tcp://btc.global.luxor.tech:700",
+                "user": "zetta.8x1"
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "bestShare": 524288,
+          "dynamicPerformanceScaling": {
+            "status": "DISABLED",
+            "statusMessage": "Disabled"
+          },
+          "foundBlocks": 0,
+          "poolStatus": "ALIVE",
+          "power": {
+            "approxConsumptionW": 3156,
+            "efficiencyWMhs": 0.000029101002172814755,
+            "limitW": 2950
+          },
+          "realHashrate": {
+            "mhs15M": 106370162.66508818,
+            "mhs15S": 108214435.81064282,
+            "mhs1H": 105062282.0691894,
+            "mhs1M": 108449873.35000567,
+            "mhs24H": 21299067.32908845,
+            "mhs30M": 100346929.40200666,
+            "mhs30S": 108301898.41059312,
+            "mhs5M": 109605798.40176895,
+            "mhs5S": 107364435.0418238,
+            "mhsAv": 99244133.78602782,
+            "mhsSinceRestart": 1807953233277.0918
+          },
+          "shares": {
+            "acceptedDifficulty": 408821760,
+            "acceptedSolutions": 978,
+            "rejectedDifficulty": 589824,
+            "rejectedRatio": 0.0014406627048442284,
+            "rejectedSolutions": 2,
+            "staleDifficulty": 0,
+            "staleRatio": 0,
+            "staleSolutions": 0
+          },
+          "temperature": {
+            "degreesC": 75,
+            "name": "Chip"
+          },
+          "tunerStatus": "RUNNING"
+        },
+        "tempCtrl": {
+          "dangerousC": 90,
+          "hotC": 80,
+          "targetC": 60
+        },
+        "workSolver": {
+          "hwDetails": {
+            "chips": 378,
+            "frequencyMhz": 568.1246496666666,
+            "voltageV": 12.346960000000001
+          },
+          "hwErrorMhs15M": 0,
+          "name": "0",
+          "nominalMhs": 110382074.587236,
+          "power": {
+            "approxConsumptionW": 3156,
+            "efficiencyWMhs": 0.000029107515139996436,
+            "limitW": 2950
+          },
+          "realHashrate": {
+            "mhs15M": 106368076.63980158,
+            "mhs15S": 108115283.57314226,
+            "mhs1H": 105061848.5794869,
+            "mhs1M": 108425607.09221661,
+            "mhs24H": 21299016.425772347,
+            "mhs30M": 100345987.38664751,
+            "mhs30S": 108253619.4786646,
+            "mhs5M": 109601037.01825115,
+            "mhs5S": 107068177.69327857,
+            "mhsAv": 99244276.46717124,
+            "mhsSinceRestart": 1807953233277.0918
+          },
+          "temperatures": [
+            {
+              "degreesC": 60,
+              "name": "Board"
+            },
+            {
+              "degreesC": 75,
+              "name": "Chip"
+            }
+          ],
+          "tuner": {
+            "iteration": 14,
+            "loadedProfileTimestamp": null,
+            "stageDurationS": 12997,
+            "status": "RUNNING",
+            "statusMessages": ["Tuning individual chips"],
+            "uptimeS": 18213
+          }
+        }
+      }
+    }
+  }
+}

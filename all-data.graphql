@@ -1,0 +1,143 @@
+query {
+  bos {
+    hostname
+    macAddress
+    uptime {
+      since
+      durationS
+    }
+    hwid
+    info {
+      mode
+      version {
+        full
+        isPlus
+      }
+    }
+    manager {
+      managementId
+      lastModified
+    }
+    autoUpgrade
+    faultLight
+  }
+  bosminer {
+    info {
+      modelName
+      poolGroups {
+        name
+        pools {
+          url
+          user
+          status
+          active
+          shares {
+            acceptedDifficulty
+            acceptedSolutions
+            rejectedDifficulty
+            rejectedSolutions
+            rejectedRatio
+            staleDifficulty
+            staleSolutions
+            staleRatio
+          }
+          lastDifficulty
+          generatedWork
+          bestShare
+        }
+      }
+      summary {
+        realHashrate {
+          mhsAv
+          mhs5S
+          mhs15S
+          mhs30S
+          mhs1M
+          mhs5M
+          mhs15M
+          mhs30M
+          mhs1H
+          mhs24H
+          mhsSinceRestart
+        }
+        poolStatus
+        shares {
+          acceptedDifficulty
+          acceptedSolutions
+          rejectedDifficulty
+          rejectedSolutions
+          rejectedRatio
+          staleDifficulty
+          staleSolutions
+          staleRatio
+        }
+        foundBlocks
+        bestShare
+        power {
+          limitW
+          approxConsumptionW
+          efficiencyWMhs
+        }
+        tunerStatus
+        dynamicPerformanceScaling {
+          status
+          statusMessage
+        }
+        temperature {
+          name
+          degreesC
+        }
+      }
+      workSolver {
+        name
+        nominalMhs
+        realHashrate {
+          mhsAv
+          mhs5S
+          mhs15S
+          mhs30S
+          mhs1M
+          mhs5M
+          mhs15M
+          mhs30M
+          mhs1H
+          mhs24H
+          mhsSinceRestart
+        }
+        hwErrorMhs15M
+        hwDetails {
+          chips
+          frequencyMhz
+          voltageV
+        }
+        power {
+          limitW
+          approxConsumptionW
+          efficiencyWMhs
+        }
+        tuner {
+          status
+          statusMessages
+          loadedProfileTimestamp
+          iteration
+          uptimeS
+          stageDurationS
+        }
+        temperatures {
+          name
+          degreesC
+        }
+      }
+      fans {
+        name
+        speed
+        rpm
+      }
+      tempCtrl {
+        targetC
+        hotC
+        dangerousC
+      }
+    }
+  }
+}
